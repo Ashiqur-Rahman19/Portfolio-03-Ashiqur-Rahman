@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Section 1 Started */
+#section_1{
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 550px;
+    margin-bottom: 100px;
+    margin-right: 0 !important;
+}
+
+.First_Class{
+    width: 35%;
+    margin-left: 6.5%;
+    padding: 2.3%;
+    float: left;
+}
+
+.First_Class h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.First_Class span{
+    color: orangered;
+}
+
+.First_Class .orangered{
+    color: orangered;
+}
+
+.First_Class p{
+    text-align: justify;
+}
+
+.First_Class .button_1{
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(0, 51, 109), rgb(44, 1, 83));
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.First_Class img{
+    max-width: 100%;
+}
+/* Section 1 End */
+
+
+/* Section 2 Started */
+#section_2{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+/* Section 2 End */
+
+
+/* Section 3 Started */
+#section_3{
+    height: 400px;
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.Same_Style{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 200px;
+}
+
+#Full_Stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(250, 204, 0), orangered);
+    border-image-slice: 1;
+    background-color: white;
+}
+
+#Baby_Web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(0, 17, 250), rgb(0, 204, 255));
+    border-image-slice: 1;
+}
+
+/* Section 3 End */
+
+footer p{
+    text-align: center;
+    color: rgb(80, 80, 80);
+}
